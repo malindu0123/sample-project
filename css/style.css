@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Poetsen+One&display=swap');
+body {
+    background-image: url("/img/backgroung.jpg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: white;
+    color: red;
+    text-align: center;
+    font-family: "Jacquard 12", system-ui;
+}
+
+p {
+    background-color: white;
+    color: purple;
+}
+#sampleID{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+    border: 20px solid red;
+}
+.sample_class{
+    background-color: aqua;
+    margin: 100px;
+}
+.box01{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: sticky;
+    top: 90%;
+    left: 500px;
+    z-index: 1;
+}
+
+.box02{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+}
